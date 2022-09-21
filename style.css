@@ -1,3 +1,4 @@
+/*index.html*/
 body {
     background-image: url(img/background.jpg);
     background-size: 500px;
@@ -91,7 +92,7 @@ p {
     text-align: justify;
     color: aliceblue;
     padding: 10px 0px;
-    background-color: rgba(133, 127, 115, 0.2);
+    background-color: rgba(7, 7, 7, 0.6);
 
 }
 
@@ -126,14 +127,17 @@ footer {
     
 }
 
-/**/
+/*biografia.html*/
 
 .img-issac {
+    float: left;
     width: 250px;
-    position: absolute;
-    top: 300px;
-    margin-left: 100px;
-    border: 1px solid white;
+    padding: 10px;
     border-radius: 400px 400px;
+}
+
+.fonte-citacao {
+    text-align: right;
+    font-size: 10px;
 }
 
